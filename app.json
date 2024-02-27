@@ -14,7 +14,12 @@
       "required": true
     }
   },
-  
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "eco"
+    }
+  },
   "buildpacks": [
     {
       "url": "heroku/nodejs"
